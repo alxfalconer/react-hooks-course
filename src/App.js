@@ -2,6 +2,7 @@ import "./App.css";
 import CallbackTutorial from "./UseCallback/CallbackTutorial";
 import EffectTutorial from "./UseEffect/EffectTutorial";
 import ContextTutorial from "./UseContext/ContextTutorial";
+import ImperativeHandle from "./UseImperativeHandle/ImperativeHandle";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     <CallbackTutorial />
     <EffectTutorial />
     <ContextTutorial />
+    <ImperativeHandle />
     </div>
   );
 }
