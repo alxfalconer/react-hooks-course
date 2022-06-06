@@ -4,6 +4,7 @@ import EffectTutorial from "./UseEffect/EffectTutorial";
 import ContextTutorial from "./UseContext/ContextTutorial";
 import ImperativeHandle from "./UseImperativeHandle/ImperativeHandle";
 import MemoTutorial from "./UseMemo/MemoTutorial";
+import ReducerTutorial from "./UseReducer/ReducerTutorial";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <ContextTutorial />
     <ImperativeHandle />
     <MemoTutorial />
+    <ReducerTutorial />
     </div>
   );
 }
