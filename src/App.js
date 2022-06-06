@@ -6,6 +6,7 @@ import ImperativeHandle from "./UseImperativeHandle/ImperativeHandle";
 import MemoTutorial from "./UseMemo/MemoTutorial";
 import ReducerTutorial from "./UseReducer/ReducerTutorial";
 import RefTutorial from "./UseRef/RefTutorial";
+import StateTutorial from "./UseState/StateTutorial";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <MemoTutorial />
     <ReducerTutorial />
     <RefTutorial />
+    <StateTutorial />
     </div>
   );
 }
