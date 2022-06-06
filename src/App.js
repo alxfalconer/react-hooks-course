@@ -5,6 +5,7 @@ import ContextTutorial from "./UseContext/ContextTutorial";
 import ImperativeHandle from "./UseImperativeHandle/ImperativeHandle";
 import MemoTutorial from "./UseMemo/MemoTutorial";
 import ReducerTutorial from "./UseReducer/ReducerTutorial";
+import RefTutorial from "./UseRef/RefTutorial";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <ImperativeHandle />
     <MemoTutorial />
     <ReducerTutorial />
+    <RefTutorial />
     </div>
   );
 }
